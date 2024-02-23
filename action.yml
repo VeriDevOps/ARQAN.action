@@ -1,9 +1,9 @@
 name: 'Security requirement analysis'
 description: 'Identify whether the issue is security requirement or not'
 inputs:
-  rqcode-token:
-    description: 'The GitHub token of the user to create GitHub Issue in RQCODE repository in case of absence of the test.'
-    required: true
+#  rqcode-token:
+#    description: 'The GitHub token of the user to create GitHub Issue in RQCODE repository in case of absence of the test.'
+#    required: true
   label:
     description: 'Label of security requirement'
     required: false
