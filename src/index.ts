@@ -8,7 +8,7 @@ import ApiService from "./apiService";
 async function run(): Promise<void> {
     try {
         // get inputs of the action
-        // const rqcodeToken = getInput('rqcode-token', {required: true})
+        const rqcodeToken = getInput('rqcode-token', {required: false})
         const token = getInput('token', {required: false})
         const label = getInput('label', {required: false})
         const stigs = getInput('stigs-comment', {required: false})
