@@ -1,5 +1,5 @@
-name: 'Security requirement analysis'
-description: 'Identify whether the issue is security requirement or not'
+name: 'Security requirement analysis with ARQAN and RQCODE'
+description: 'Issues mapping to security recommendations from STIG database for Windows 10. The action provides recommendations and ready-to-use tests from RQCODE.'
 inputs:
   rqcode-token:
     description: 'The GitHub token of the user to create GitHub Issue in RQCODE repository in case of absence of the test.'
