@@ -27,7 +27,7 @@ inputs:
   platform:
     description: 'Platform for STIGs'
     required: false
-    default: ''
+    default: 'windows_10'
   username:
     description: 'ARQAN username'
     required: true
